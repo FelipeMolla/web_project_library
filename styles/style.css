@@ -47,7 +47,7 @@
 
 .header__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   max-height: 636px;
 }
 
@@ -116,6 +116,7 @@
 }
 
 .staff__cards {
+  list-style-type: none;
   padding: 0;
   gap: 40px;
   flex-wrap: wrap;
@@ -249,7 +250,7 @@
 }
 
 .person_name_burbidge {
-  top: 95px;
+  top: 96px;
   right: 125px;
 }
 
