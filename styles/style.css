@@ -42,7 +42,6 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: normal;
 }
 
 .header__content {
@@ -110,7 +109,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0;
+  margin: auto;
   color: #ffffff;
   margin-bottom: 68px;
 }
@@ -123,7 +122,10 @@
   justify-content: space-between;
   display: flex;
   max-width: 760px;
-  margin: auto;
+  margin-top: 68px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 .card {
   background-color: #fff;
@@ -304,7 +306,6 @@
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  font-weight: 500;
   line-height: 52px;
   font-weight: bold;
 }
@@ -371,7 +372,7 @@
 
 .footer__column-heading {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 
 .footer__list {
@@ -381,8 +382,9 @@
 }
 
 .footer__list-item {
-  margin-top: 16px;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 .footer__text {
   margin-top: 16px;
@@ -393,12 +395,15 @@
   color: white;
   text-decoration: none;
   font-size: 16px;
+  margin-top: 16px;
 }
 
 .footer__social-icon {
+  margin-top: 16px;
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  align-self: center;
 }
 
 .footer__copyright {
