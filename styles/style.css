@@ -42,6 +42,7 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 .header__content {
@@ -119,13 +120,13 @@
   padding: 0;
   gap: 40px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
   max-width: 760px;
   margin-top: 68px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
+  margin-bottom: 0;
 }
 .card {
   background-color: #fff;
@@ -383,8 +384,6 @@
 
 .footer__list-item {
   margin-bottom: 0;
-  display: flex;
-  align-items: center;
 }
 .footer__text {
   margin-top: 16px;
@@ -396,14 +395,14 @@
   text-decoration: none;
   font-size: 16px;
   margin-top: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
-  margin-top: 16px;
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  align-self: center;
 }
 
 .footer__copyright {
